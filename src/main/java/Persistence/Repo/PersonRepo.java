@@ -46,4 +46,17 @@ public class PersonRepo {
 
     List<Person> findPersonByNameIsNotNull();
 
+    @Query("SELECT p from Person p")
+    List<Person> findPersonByNameIsNotNullJPQL();
+
+    @Query("SELECT p from Person p")
+    List<Person> findPersonByNameIsNotNullSQL();
+    List<Person> findPersonByNameIsNull();
+
+    @Query("SELECT p from Person p")
+    List<Person> findPersonByNameIsNullJPQL();
+
+    @Query("SELECT p from Person p")
+    List<Person> findPersonByNameIsNullSQL();
+
 }
