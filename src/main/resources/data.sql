@@ -1,0 +1,1 @@
+INSERT INTO PERSON (age,name) VALUES (26,'Anoop Dass'), (25,'Will') , (22,'Sid'), (47,NULL);
