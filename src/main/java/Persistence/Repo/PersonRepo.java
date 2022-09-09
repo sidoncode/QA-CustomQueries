@@ -23,7 +23,7 @@ public class PersonRepo {
     List<Person> findPersonByAgeLessThan(int age);
 
     @Query(value = "SELECT p from Person")
-    List<Person> findPersonByAgeGreaterThanJPQL(int age);
+    List<Person> findPersonByAgeLessThanJPQL(int age);
 
     @Query(value = "SELECT p from Person")
     List<Person> findPersonByAgeLessThanSQL(int age);
